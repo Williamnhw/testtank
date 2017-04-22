@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TankScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WeaponScript_Network.cs">
     <Files>
-      <File FileName="Assets/Scripts/WeaponScript.cs" Line="62" Column="17" />
-      <File FileName="Assets/Scripts/TankScript.cs" Line="32" Column="26" />
+      <File FileName="Assets/Scripts/TankScript_Network.cs" Line="82" Column="55" />
+      <File FileName="Assets/Scripts/WeaponScript_Network.cs" Line="6" Column="34" />
+      <File FileName="Assets/Scripts/TankScript.cs" Line="49" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

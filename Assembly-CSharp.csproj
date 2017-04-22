@@ -61,7 +61,9 @@
      <Compile Include="Assets\Scripts\ShotScript.cs" />
      <Compile Include="Assets\Scripts\TankScript.cs" />
      <Compile Include="Assets\Scripts\TankScript1.cs" />
+     <Compile Include="Assets\Scripts\TankScript_Network.cs" />
      <Compile Include="Assets\Scripts\WeaponScript.cs" />
+     <Compile Include="Assets\Scripts\WeaponScript_Network.cs" />
      <None Include="Assets\CoOpTankGame\Resources\Maps\MyCustomMap.txt" />
      <None Include="Assets\CoOpTankGame\Resources\Maps\Compound.txt" />
      <None Include="Assets\CoOpTankGame\Resources\Maps\Open.txt" />

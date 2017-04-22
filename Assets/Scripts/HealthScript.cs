@@ -16,7 +16,7 @@ public class HealthScript : MonoBehaviour {
 			if (shot.isBrickShot != isBrick) {
 				hp -= shot.damage;
 
-				Destroy (shot.gameObject);
+				shot.deleteShot ();
 
 				if (hp <= 0) {
 					Destroy (gameObject);

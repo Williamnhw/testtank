@@ -15,4 +15,8 @@ public class ShotScript : MonoBehaviour {
 		Destroy (gameObject, 7);
 
 	}
+
+	public void deleteShot() {
+		Destroy (gameObject);
+	}
 }
