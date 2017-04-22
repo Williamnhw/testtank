@@ -17,6 +17,8 @@ public class WeaponScript : MonoBehaviour {
 	/// </summary>
 	public float shootingRate = 0.25f;
 
+	public Vector2 direction;
+
 	//--------------------------------
 	// 2 - Cooldown
 	//--------------------------------
@@ -39,6 +41,7 @@ public class WeaponScript : MonoBehaviour {
 	//--------------------------------
 	// 3 - Shooting from another script
 	//--------------------------------
+
 
 	/// <summary>
 	/// Create a new projectile if possible
@@ -66,7 +69,8 @@ public class WeaponScript : MonoBehaviour {
 			MoveScript move = shotTransform.gameObject.GetComponent<MoveScript>();
 			if (move != null)
 			{
-				move.direction = this.transform.right; // towards in 2D space is the right of the sprite
+				move.direction = direction;
+//				move.direction = this.transform.right; // towards in 2D space is the right of the sprite
 			}
 		}
 	}

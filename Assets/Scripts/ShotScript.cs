@@ -12,7 +12,7 @@ public class ShotScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Destroy (gameObject, 20 );
+		Destroy (gameObject, 10);
 
 	}
 }
