@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\MoveScript.cs" />
      <Compile Include="Assets\Scripts\ShotScript.cs" />
      <Compile Include="Assets\Scripts\TankScript.cs" />
+     <Compile Include="Assets\Scripts\TankScript1.cs" />
      <Compile Include="Assets\Scripts\WeaponScript.cs" />
      <None Include="Assets\CoOpTankGame\Resources\Maps\MyCustomMap.txt" />
      <None Include="Assets\CoOpTankGame\Resources\Maps\Compound.txt" />

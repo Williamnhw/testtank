@@ -56,7 +56,7 @@ public class WeaponScript : MonoBehaviour {
 			var shotTransform = Instantiate(shotPrefab) as Transform;
 
 			// Assign position
-			shotTransform.position = transform.position;
+			shotTransform.position = transform.position + (Vector3) direction;
 
 			// The is enemy property
 			ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();
@@ -70,7 +70,6 @@ public class WeaponScript : MonoBehaviour {
 			if (move != null)
 			{
 				move.direction = direction;
-//				move.direction = this.transform.right; // towards in 2D space is the right of the sprite
 			}
 		}
 	}

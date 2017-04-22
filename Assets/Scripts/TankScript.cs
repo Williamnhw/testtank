@@ -8,13 +8,13 @@ public class TankScript : MonoBehaviour {
 
 	float speed  = 2.0f;
 
-	public Vector2 direction = new Vector2(1, 0);
+	public Vector2 direction = new Vector2(-1, 0);
 
 
 	// Use this for initialization
-//	void Start () {
-//	
-//	}
+	void Start () {
+		onDirectionChange (direction);	
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -44,8 +44,8 @@ public class TankScript : MonoBehaviour {
 
 			
 		// Shooting
-		bool shoot = Input.GetButtonDown ("Fire1");
-		shoot |= Input.GetButtonDown ("Fire2");
+//		bool shoot = Input.GetButtonDown ("Fire1");
+		bool shoot = Input.GetButtonDown ("Fire2");
 
 		if (shoot) {
 			WeaponScript weapon = GetComponent<WeaponScript> ();
